@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29A7623F27E29AD4009B840C /* TheWheelyCoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7623E27E29AD4009B840C /* TheWheelyCoolApp.swift */; };
+		29A7624127E29AD4009B840C /* ListOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7624027E29AD4009B840C /* ListOptionsView.swift */; };
+		29A7624327E29AD6009B840C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A7624227E29AD6009B840C /* Assets.xcassets */; };
+		29A7624627E29AD6009B840C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A7624527E29AD6009B840C /* Preview Assets.xcassets */; };
+		29A7624B27E29AD6009B840C /* TheWheelyCool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29A7624927E29AD6009B840C /* TheWheelyCool.xcdatamodeld */; };
+		29A7625527E29AD6009B840C /* TheWheelyCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7625427E29AD6009B840C /* TheWheelyCoolTests.swift */; };
+		29A7625F27E29AD6009B840C /* TheWheelyCoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7625E27E29AD6009B840C /* TheWheelyCoolUITests.swift */; };
+		29A7626127E29AD6009B840C /* TheWheelyCoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7626027E29AD6009B840C /* TheWheelyCoolUITestsLaunchTests.swift */; };
+		29A7627327E2A276009B840C /* AddOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7627227E2A276009B840C /* AddOptionView.swift */; };
+		29A7629427E2C6EF009B840C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7629327E2C6EF009B840C /* ContentView.swift */; };
+		29A7629627E2C898009B840C /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7629527E2C898009B840C /* SpinWheelView.swift */; };
+		29A7629927E2C994009B840C /* FortuneWheel in Frameworks */ = {isa = PBXBuildFile; productRef = 29A7629827E2C994009B840C /* FortuneWheel */; };
+		29A7629B27E2FF55009B840C /* OptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7629A27E2FF55009B840C /* OptionViewModel.swift */; };
+		29A7629E27E3027B009B840C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7629D27E3027B009B840C /* CoreDataManager.swift */; };
+		29A762A027E304A3009B840C /* OptionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7629F27E304A3009B840C /* OptionListViewModel.swift */; };
+		29A762AE27E41196009B840C /* Quicksand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29A762A427E40391009B840C /* Quicksand.ttf */; };
+		29A762AF27E41199009B840C /* Shrikhand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29A762A827E40CC3009B840C /* Shrikhand.ttf */; };
+		29A762B127E4238D009B840C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A762B027E4238D009B840C /* AlertView.swift */; };
+		29A762B427E423AF009B840C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A762B327E423AF009B840C /* Color+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29A7625127E29AD6009B840C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29A7623327E29AD4009B840C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A7623A27E29AD4009B840C;
+			remoteInfo = TheWheelyCool;
+		};
+		29A7625B27E29AD6009B840C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29A7623327E29AD4009B840C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A7623A27E29AD4009B840C;
+			remoteInfo = TheWheelyCool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29A7623B27E29AD4009B840C /* TheWheelyCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWheelyCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A7623E27E29AD4009B840C /* TheWheelyCoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWheelyCoolApp.swift; sourceTree = "<group>"; };
+		29A7624027E29AD4009B840C /* ListOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOptionsView.swift; sourceTree = "<group>"; };
+		29A7624227E29AD6009B840C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29A7624527E29AD6009B840C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29A7624A27E29AD6009B840C /* TheWheelyCool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheWheelyCool.xcdatamodel; sourceTree = "<group>"; };
+		29A7625027E29AD6009B840C /* TheWheelyCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWheelyCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A7625427E29AD6009B840C /* TheWheelyCoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWheelyCoolTests.swift; sourceTree = "<group>"; };
+		29A7625A27E29AD6009B840C /* TheWheelyCoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWheelyCoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A7625E27E29AD6009B840C /* TheWheelyCoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWheelyCoolUITests.swift; sourceTree = "<group>"; };
+		29A7626027E29AD6009B840C /* TheWheelyCoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWheelyCoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29A7627227E2A276009B840C /* AddOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOptionView.swift; sourceTree = "<group>"; };
+		29A7629327E2C6EF009B840C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29A7629527E2C898009B840C /* SpinWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelView.swift; sourceTree = "<group>"; };
+		29A7629A27E2FF55009B840C /* OptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewModel.swift; sourceTree = "<group>"; };
+		29A7629D27E3027B009B840C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		29A7629F27E304A3009B840C /* OptionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionListViewModel.swift; sourceTree = "<group>"; };
+		29A762A127E3FC01009B840C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		29A762A427E40391009B840C /* Quicksand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand.ttf; sourceTree = "<group>"; };
+		29A762A827E40CC3009B840C /* Shrikhand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shrikhand.ttf; sourceTree = "<group>"; };
+		29A762B027E4238D009B840C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		29A762B327E423AF009B840C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A7623827E29AD4009B840C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A7629927E2C994009B840C /* FortuneWheel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7624D27E29AD6009B840C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7625727E29AD6009B840C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A7623227E29AD4009B840C = {
+			isa = PBXGroup;
+			children = (
+				29A7623D27E29AD4009B840C /* TheWheelyCool */,
+				29A7625327E29AD6009B840C /* TheWheelyCoolTests */,
+				29A7625D27E29AD6009B840C /* TheWheelyCoolUITests */,
+				29A7623C27E29AD4009B840C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29A7623C27E29AD4009B840C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A7623B27E29AD4009B840C /* TheWheelyCool.app */,
+				29A7625027E29AD6009B840C /* TheWheelyCoolTests.xctest */,
+				29A7625A27E29AD6009B840C /* TheWheelyCoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A7623D27E29AD4009B840C /* TheWheelyCool */ = {
+			isa = PBXGroup;
+			children = (
+				29A762B227E4239A009B840C /* Extensions */,
+				29A762A327E4037A009B840C /* Fonts */,
+				29A7629C27E3025C009B840C /* Manager */,
+				29A7626F27E29C44009B840C /* Model */,
+				29A7626E27E29B9A009B840C /* ViewModels */,
+				29A7626D27E29B73009B840C /* Views */,
+				29A7624227E29AD6009B840C /* Assets.xcassets */,
+				29A7623E27E29AD4009B840C /* TheWheelyCoolApp.swift */,
+				29A762A127E3FC01009B840C /* Info.plist */,
+				29A7624427E29AD6009B840C /* Preview Content */,
+			);
+			path = TheWheelyCool;
+			sourceTree = "<group>";
+		};
+		29A7624427E29AD6009B840C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29A7624527E29AD6009B840C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29A7625327E29AD6009B840C /* TheWheelyCoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				29A7625427E29AD6009B840C /* TheWheelyCoolTests.swift */,
+			);
+			path = TheWheelyCoolTests;
+			sourceTree = "<group>";
+		};
+		29A7625D27E29AD6009B840C /* TheWheelyCoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29A7625E27E29AD6009B840C /* TheWheelyCoolUITests.swift */,
+				29A7626027E29AD6009B840C /* TheWheelyCoolUITestsLaunchTests.swift */,
+			);
+			path = TheWheelyCoolUITests;
+			sourceTree = "<group>";
+		};
+		29A7626D27E29B73009B840C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29A7629327E2C6EF009B840C /* ContentView.swift */,
+				29A7624027E29AD4009B840C /* ListOptionsView.swift */,
+				29A7627227E2A276009B840C /* AddOptionView.swift */,
+				29A7629527E2C898009B840C /* SpinWheelView.swift */,
+				29A762B027E4238D009B840C /* AlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29A7626E27E29B9A009B840C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29A7629F27E304A3009B840C /* OptionListViewModel.swift */,
+				29A7629A27E2FF55009B840C /* OptionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		29A7626F27E29C44009B840C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29A7624927E29AD6009B840C /* TheWheelyCool.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29A7629C27E3025C009B840C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				29A7629D27E3027B009B840C /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		29A762A327E4037A009B840C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				29A762A827E40CC3009B840C /* Shrikhand.ttf */,
+				29A762A427E40391009B840C /* Quicksand.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		29A762B227E4239A009B840C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29A762B327E423AF009B840C /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A7623A27E29AD4009B840C /* TheWheelyCool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A7626427E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCool" */;
+			buildPhases = (
+				29A7623727E29AD4009B840C /* Sources */,
+				29A7623827E29AD4009B840C /* Frameworks */,
+				29A7623927E29AD4009B840C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWheelyCool;
+			packageProductDependencies = (
+				29A7629827E2C994009B840C /* FortuneWheel */,
+			);
+			productName = TheWheelyCool;
+			productReference = 29A7623B27E29AD4009B840C /* TheWheelyCool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29A7624F27E29AD6009B840C /* TheWheelyCoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A7626727E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCoolTests" */;
+			buildPhases = (
+				29A7624C27E29AD6009B840C /* Sources */,
+				29A7624D27E29AD6009B840C /* Frameworks */,
+				29A7624E27E29AD6009B840C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A7625227E29AD6009B840C /* PBXTargetDependency */,
+			);
+			name = TheWheelyCoolTests;
+			productName = TheWheelyCoolTests;
+			productReference = 29A7625027E29AD6009B840C /* TheWheelyCoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29A7625927E29AD6009B840C /* TheWheelyCoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A7626A27E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCoolUITests" */;
+			buildPhases = (
+				29A7625627E29AD6009B840C /* Sources */,
+				29A7625727E29AD6009B840C /* Frameworks */,
+				29A7625827E29AD6009B840C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A7625C27E29AD6009B840C /* PBXTargetDependency */,
+			);
+			name = TheWheelyCoolUITests;
+			productName = TheWheelyCoolUITests;
+			productReference = 29A7625A27E29AD6009B840C /* TheWheelyCoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A7623327E29AD4009B840C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					29A7623A27E29AD4009B840C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					29A7624F27E29AD6009B840C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 29A7623A27E29AD4009B840C;
+					};
+					29A7625927E29AD6009B840C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 29A7623A27E29AD4009B840C;
+					};
+				};
+			};
+			buildConfigurationList = 29A7623627E29AD4009B840C /* Build configuration list for PBXProject "TheWheelyCool" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A7623227E29AD4009B840C;
+			packageReferences = (
+				29A7629727E2C994009B840C /* XCRemoteSwiftPackageReference "FortuneWheel" */,
+			);
+			productRefGroup = 29A7623C27E29AD4009B840C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A7623A27E29AD4009B840C /* TheWheelyCool */,
+				29A7624F27E29AD6009B840C /* TheWheelyCoolTests */,
+				29A7625927E29AD6009B840C /* TheWheelyCoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A7623927E29AD4009B840C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A762AE27E41196009B840C /* Quicksand.ttf in Resources */,
+				29A762AF27E41199009B840C /* Shrikhand.ttf in Resources */,
+				29A7624627E29AD6009B840C /* Preview Assets.xcassets in Resources */,
+				29A7624327E29AD6009B840C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7624E27E29AD6009B840C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7625827E29AD6009B840C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A7623727E29AD4009B840C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A7629627E2C898009B840C /* SpinWheelView.swift in Sources */,
+				29A7624127E29AD4009B840C /* ListOptionsView.swift in Sources */,
+				29A7629427E2C6EF009B840C /* ContentView.swift in Sources */,
+				29A762A027E304A3009B840C /* OptionListViewModel.swift in Sources */,
+				29A7629B27E2FF55009B840C /* OptionViewModel.swift in Sources */,
+				29A762B127E4238D009B840C /* AlertView.swift in Sources */,
+				29A7627327E2A276009B840C /* AddOptionView.swift in Sources */,
+				29A7624B27E29AD6009B840C /* TheWheelyCool.xcdatamodeld in Sources */,
+				29A7629E27E3027B009B840C /* CoreDataManager.swift in Sources */,
+				29A762B427E423AF009B840C /* Color+Extensions.swift in Sources */,
+				29A7623F27E29AD4009B840C /* TheWheelyCoolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7624C27E29AD6009B840C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A7625527E29AD6009B840C /* TheWheelyCoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A7625627E29AD6009B840C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A7625F27E29AD6009B840C /* TheWheelyCoolUITests.swift in Sources */,
+				29A7626127E29AD6009B840C /* TheWheelyCoolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29A7625227E29AD6009B840C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A7623A27E29AD4009B840C /* TheWheelyCool */;
+			targetProxy = 29A7625127E29AD6009B840C /* PBXContainerItemProxy */;
+		};
+		29A7625C27E29AD6009B840C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A7623A27E29AD4009B840C /* TheWheelyCool */;
+			targetProxy = 29A7625B27E29AD6009B840C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29A7626227E29AD6009B840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29A7626327E29AD6009B840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A7626527E29AD6009B840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheWheelyCool/Preview Content\"";
+				DEVELOPMENT_TEAM = VNL3823F55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheWheelyCool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A7626627E29AD6009B840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheWheelyCool/Preview Content\"";
+				DEVELOPMENT_TEAM = VNL3823F55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheWheelyCool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29A7626827E29AD6009B840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNL3823F55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWheelyCool.app/TheWheelyCool";
+			};
+			name = Debug;
+		};
+		29A7626927E29AD6009B840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNL3823F55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWheelyCool.app/TheWheelyCool";
+			};
+			name = Release;
+		};
+		29A7626B27E29AD6009B840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNL3823F55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheWheelyCool;
+			};
+			name = Debug;
+		};
+		29A7626C27E29AD6009B840C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNL3823F55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MauricioDias.TheWheelyCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheWheelyCool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A7623627E29AD4009B840C /* Build configuration list for PBXProject "TheWheelyCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A7626227E29AD6009B840C /* Debug */,
+				29A7626327E29AD6009B840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A7626427E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A7626527E29AD6009B840C /* Debug */,
+				29A7626627E29AD6009B840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A7626727E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A7626827E29AD6009B840C /* Debug */,
+				29A7626927E29AD6009B840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A7626A27E29AD6009B840C /* Build configuration list for PBXNativeTarget "TheWheelyCoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A7626B27E29AD6009B840C /* Debug */,
+				29A7626C27E29AD6009B840C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29A7629727E2C994009B840C /* XCRemoteSwiftPackageReference "FortuneWheel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sameersyd/FortuneWheel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29A7629827E2C994009B840C /* FortuneWheel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29A7629727E2C994009B840C /* XCRemoteSwiftPackageReference "FortuneWheel" */;
+			productName = FortuneWheel;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		29A7624927E29AD6009B840C /* TheWheelyCool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29A7624A27E29AD6009B840C /* TheWheelyCool.xcdatamodel */,
+			);
+			currentVersion = 29A7624A27E29AD6009B840C /* TheWheelyCool.xcdatamodel */;
+			path = TheWheelyCool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29A7623327E29AD4009B840C /* Project object */;
+}
